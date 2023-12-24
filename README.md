@@ -1,2 +1,2 @@
 # meditation-app
-Meditation app tutorial
+Vanilla JS Meditation app.
