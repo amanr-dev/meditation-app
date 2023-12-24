@@ -13,6 +13,14 @@
   font-family: "Playfair Display", serif;
 }
 
+.play {
+  cursor: pointer;
+}
+
+.play:hover {
+  scale: 0.9;
+}
+
 .time-select,
 .sound-picker {
   height: 80%;
@@ -79,10 +87,12 @@
   transition: all 0.2s ease-in-out;
 }
 .time-display {
-  color: white;
+  font-family: math;
+  color: #15279d;
   position: absolute;
-  font-size: 50px;
-  bottom: 10%;
+  font-size: 60px;
+  bottom: 5%;
+  font-weight: bold;
 }
 
 video {
